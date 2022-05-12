@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #cda8b8;
+    margin: 0px;
+}
+header {
+    background-color: #21897e;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+#logo {
+    width: 400px;
+}
+nav {
+    background-color: #f7ede2;
+    text-align: center;
+    font-family: Arial;
+}
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #3a5a40;
+}
+nav a:hover {
+    background-color: #586F7C;
+    color: white;
+}
+footer {
+    background-color: #f7ede2;
+    color: #586F7C;
+    text-align: center;
+    padding: 10px;
+}
+main {
+    padding: 20px;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+article {
+    float: left;
+    width: 73%;
+}
+aside {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.card {
+    background-color: #f7ede2;
+    padding: 20px;
+    margin: 20px 10px;
+}
+@media screen and (max-width:800px) {
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+    }
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
+}
+h2 {
+    color: #586F7C;
+}
+.bus-pic {
+    width: 500px;
+}
+.man-pic {
+    height: 300px;
+}
+.menu-pic {
+    width: 500px;
+}
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#top {
+    width: 150px;
+}
